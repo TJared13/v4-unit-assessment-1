@@ -1,0 +1,187 @@
+header {
+    margin: 0px;
+    padding: 10px;
+    height: 100px;
+    background-color:paleturquoise;
+}
+
+h1 {
+    margin: 25px;
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h2 {
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.container1 {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 25px;
+    border: 5px, black;
+    border-style: dotted;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container2 {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    height: 425px;
+    border: 5px, black;
+    border-style: dotted;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.purpleBox {
+    margin: 15px;
+    width: 200px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    display: inline-block;
+}
+
+.blueBox {
+    margin: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(4, 0, 255);
+    box-shadow: 5px 5px 5px black;
+    display: inline-block;
+}
+
+.pinkBox {
+    margin: 15px;
+    width: 300px;
+    height: 300px;
+    background-color:pink;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    display: inline-block;
+}
+
+.head {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.torso {
+    margin-left: 25px;
+    width: 150px;
+    height: 150px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    display: block;
+
+}
+ .trunk {
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    display: block;
+ }
+
+ .eye1 {
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.eye2 {
+    margin-bottom: 100px;
+    margin-left: 55px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+ .buttons {
+     margin: 30px;
+     margin-left: 65px;
+     width: 15px;
+     height: 15px;
+     border-radius: 50%;
+     background-color: black;
+     display: block;
+ }
+
+ .tanBox {
+
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-color: lightyellow;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+
+}
+
+.greenCir {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    background-color: green;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: black;
+
+}
+
+
+.redBox {
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    position: relative;
+    background-color: red;
+    vertical-align: middle;
+}
+
+.blueCir {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+
+}
+
+.fishTank {
+    color: white;
+    font-size: 40px;
+    position: inherit;
+}
+
