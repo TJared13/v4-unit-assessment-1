@@ -108,6 +108,13 @@ h2 {
     display: block;
  }
 
+.carrot {
+    width: 20px;
+    height: 30x;
+    padding: 25px;
+    padding-top: 5px;
+    padding-left: 30px;
+}
  .eye1 {
     margin-top: 30px;
     margin-left: 25px;
@@ -118,16 +125,18 @@ h2 {
 }
 
 .eye2 {
-    margin-bottom: 100px;
-    margin-left: 55px;
+    margin-top: -15px;
+    margin-left: 50px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: black;
 }
 
+
  .buttons {
-     margin: 30px;
+     margin: 20px;
+     margin-top: 25px;
      margin-left: 65px;
      width: 15px;
      height: 15px;
@@ -181,8 +190,17 @@ h2 {
 
 
 .fishTank {
+    padding: 40px;
     color: white;
     font-size: 40px;
     position: inherit;
+    top: 200px;
+}
+
+.fish {
+    width: 100px;
+    height: 100px;
+    position: inherit;
+    left: 40px;
 }
 

@@ -32,11 +32,19 @@ function sum(num1, num2) {
 */
 
 //CODE HERE
-    function trueOrFalse(data) {
-      if (data === 1) {
-        return true;
-      } else {
+    // function trueOrFalse(data) {
+    //   if (data === 1) {
+    //     return true;
+    //   } else {
+    //     return false;
+    //   }
+    // }
+
+    function trueOrFalse(data){
+      if (data === 0 || data === undefined){
         return false;
+      } else {
+        return true;
       }
     }
 //////////////////PROBLEM 6////////////////////
@@ -75,13 +83,13 @@ function iLove(name, love) {
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-const colorCopy = faveColors.slice(0, 3)
+const colorCopy = faveColors.slice(0, 3); 
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
-colorCopy.push('blue')
+colorCopy.push('blue');
 //////////////////PROBLEM 10////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -268,13 +276,13 @@ function giveMeDoubles(arr, cb) {
 */
 
 //CODE HERE
-function carFactory(make, model, year){
-  let car = {make:'', model:'', year:'',};
+function carFactory(make, model, year) {
+  let car = {make: make, model: model, year: year}
 
-  if (year > 2018) {
-     car.isNew = true; { 
-    }
-  } car.isNew = false;{
-  return car;
+  if (car.year > 2018) {
+    car.isNew = true;
+  } else {
+    car.isNew = false;
   }
+  return car;
 }

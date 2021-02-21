@@ -5,10 +5,12 @@ body {
 h1 {
     margin: 200px, 200px;
     font-style: bold;
-    font-size: 50px;
+    font-size: 60px;
 }
 .textAlign {
-    margin-top: 10px;
+    margin-right: 275px;
+    display: flex;
+    float: right;
 }
 
 h2 {
@@ -39,8 +41,10 @@ h3 {
 }
 
 .button {
-
-    font-size: 18px;
+    margin-right: 140px;
+    margin-top: -85px;
+    font-size: 20x;
+    flex-direction: row-reverse;
 }
 
 
@@ -48,7 +52,7 @@ h3 {
 
 .container1 {
     background-color:darksalmon;
-    padding: 75px;
+    padding: 25px;
 }
 
 .mainContain {
@@ -76,7 +80,7 @@ h3 {
 .para1 {
     margin: 50px;
     font-size: 18px;
-    text-align: right;
+    text-align: left;
     clear: right;
     
 }
@@ -84,7 +88,7 @@ h3 {
 .para2 {
     margin: 50px;
     font-size: 18px;
-    text-align: right;
+    text-align: left;
     clear: left;
     
 }
