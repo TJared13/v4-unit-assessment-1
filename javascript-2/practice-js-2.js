@@ -71,6 +71,7 @@ let status = {
     following the guidelines above to describe the add command.
 */
 
+
 //CODE HERE
 let add = {
     description: 'adds changes to staging',
